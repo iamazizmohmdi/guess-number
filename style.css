@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-color:#D8B5F5;
+    width: 100%;
+    padding: 20px 50px;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.container h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#guess-input:active,
+#guess-input:focus {
+    outline: none;
+}
+
+#guess-btn {
+    background-color:rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
